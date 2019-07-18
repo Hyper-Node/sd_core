@@ -9,8 +9,8 @@ Current supported formats:
 """
 
 
-from conditional_print import ConditionalPrint
-from configuration_handler import ConfigurationHandler
+from .conditional_print import ConditionalPrint
+from .configuration_handler import ConfigurationHandler
 from tika import parser  # care contacts a web service, used for pdf parsing atm
 
 # import PyPDF2

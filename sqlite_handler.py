@@ -1,5 +1,5 @@
-from conditional_print import ConditionalPrint
-from configuration_handler import ConfigurationHandler
+from .conditional_print import ConditionalPrint
+from .configuration_handler import ConfigurationHandler
 
 import os
 import sqlite3
